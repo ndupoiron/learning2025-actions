@@ -15,5 +15,5 @@ jobs:
     uses: ./.github/workflows/wf05-rw-label-and-comment-issue.yml
     with:
       issue_number: ${{ github.event.issue.number }}
-      assignee: tdupoiron
-      label: learning2025
+      assignee: ndupoiron
+      label: learning2025-bmw
